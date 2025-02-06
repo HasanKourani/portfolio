@@ -59,9 +59,15 @@ a.nav-item:hover {
 }
 
 .project-figure {
-  margin: 0 auto 1rem auto;
-  max-height: 256px;
-  max-width: 256px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  max-height: 700px;
+  max-width: 700px;
+  object-fit: contain;
 }
 
 .project-text {
